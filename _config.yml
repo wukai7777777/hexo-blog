@@ -3,12 +3,14 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: Hexo
-subtitle:
-description:
-author: John Doe
-language:
+title: 扬帆启航
+subtitle: 靡不有初，鲜克有终
+description: 人所缺乏的不是才干，而是志向；不是成功的能力，而是勤劳的意志。
+author: 愚公移山
+language: zh-CN
 timezone:
+email: YeesAngel@gmail.com
+keywords: "前端,es6,vue,webpack,express,,nodejs"
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
@@ -80,3 +82,32 @@ deploy:
   type: git
   repository: git@github.com:wukai7777777/wukai7777777.github.io.git
   brancg: master
+
+  sitemap:
+    path: sitemap.xml
+baidusitemap:
+    path: baidusitemap.xm
+
+# feed:
+#     type: atom
+#     path: atom.xml
+#     limit: 100
+
+jsonContent:
+  meta: false
+  pages: false
+  posts:
+    title: true
+    date: true
+    path: true
+    text: false
+    raw: false
+    content: false
+    slug: false
+    updated: false
+    comments: false
+    link: false
+    permalink: false
+    excerpt: false
+    categories: false
+    tags: true
